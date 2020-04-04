@@ -5,7 +5,7 @@ public class Staging {
 		// TODO Auto-generated method stub
 		System.out.println("Git hub Handling");
 		System.out.println("Git hub Handling2");
-		System.out.println("Git hub Handling3");
+		System.out.println("Modified changes");
 	}
 
 }
