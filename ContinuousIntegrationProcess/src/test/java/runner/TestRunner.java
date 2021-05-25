@@ -11,7 +11,8 @@ import cucumber.api.junit.Cucumber;
 		features = "Feature",
 		glue="stepDefinition",
 				//format = {"pretty", "html:target/Destination"},
-				plugin= {"com.cucumber.listener.ExtentCucumberFormatter:Output/report.html"},
+			//	plugin= {"com.cucumber.listener.ExtentCucumberFormatter:Output/report.html"},
+		format= {"json:target/cucumber.json"},
 		dryRun=false
 		
 		
