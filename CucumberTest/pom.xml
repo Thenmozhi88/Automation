@@ -40,7 +40,7 @@
 				</goals>
 				<configuration>
 				<projectName>CucumberTest</projectName>
-				<outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
+				<outputDirectory>${project.build.directory}/gou-cucumber-reports</outputDirectory>
 				<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
 				<skippedFails>true</skippedFails>
 				<enableFlashCharts>true</enableFlashCharts>
