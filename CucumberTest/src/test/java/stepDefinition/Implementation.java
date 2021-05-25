@@ -44,7 +44,7 @@ public void verify_homepage() throws Throwable {
 public void close_the_browser() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
     Thread.sleep(2000);
-	
+	System.out.println("Browser close");
     driver.close();
 }
 
