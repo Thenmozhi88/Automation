@@ -1,0 +1,2 @@
+cd C:\Users\ThenmozhiP\LiveAU_Project\AU_MSME
+mvn clean install

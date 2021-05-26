@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      
+      <class name="com.au.testcases.TC_LoginTest_001"/>
+      <class name="com.au.testcases.TC_CustomerUpdateTest_002"/>
+      <class name="com.au.testcases.TC_Application_003"/>
+      <class name="com.au.testcases.TC_PDCADF_004"/>
+      <class name="com.au.testcases.TC_IVdetails_005"/>
+      <class name="com.au.testcases.TC_BSA_006"/>
+      <class name="com.au.testcases.TC_RTRdetails_007"/>
+      <class name="com.au.testcases.TC_CollateralUpdateTest_008"/>
+      <class name="com.au.testcases.TC_UpdateLegal009"/>
+      <class name="com.au.testcases.TC_UpdateValuation010"/>
+      <class name="com.au.testcases.TC_UpdateLoanDetails011"/>
+      <class name="com.au.testcases.TC_BSRPSL_0012"/>
+      
+      
+      
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
