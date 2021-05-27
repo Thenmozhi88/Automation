@@ -11,10 +11,10 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
 		
 		features="Feature",
 		glue="stepDefinition",
-		plugin = { "pretty","html:target/cucumber-html-report",
-				        "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
-				        "junit:target/cucumber.xml","rerun:target/rerun.txt" }
-		
+		//plugin = { "pretty","html:target/cucumber-html-report",
+			//	        "json:target/cucumber.json", "pretty:target/cucumber-pretty.txt",
+				//        "junit:target/cucumber.xml","rerun:target/rerun.txt" }
+		plugin= {"pretty","json:target/cucumber/product.json","html:target/cucumber"}
 		)
 
 

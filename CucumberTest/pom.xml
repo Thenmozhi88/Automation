@@ -40,11 +40,17 @@
 				</goals>
 				<configuration>
 				<projectName>CucumberTest</projectName>
-				<outputDirectory>${project.build.directory}/gou-cucumber-reports</outputDirectory>
-				<cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
+				<!-- <outputDirectory>${project.build.directory}/gou-cucumber-reports</outputDirectory>  -->
+				<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>  -->
+				<outputDirectory>${project.build.directory}/cucumber</outputDirectory>
+				<inputDirectory>${project.build.directory}/cucumber</inputDirectory>
+				<jsonFiles>
+				<param>**/*.json</param>
+				</jsonFiles>
 				<skippedFails>true</skippedFails>
 				<enableFlashCharts>true</enableFlashCharts>
 				<buildNumber>4</buildNumber>
+				<checkBuildResult>false</checkBuildResult>
 				</configuration>
 				</execution>
 				</executions>
