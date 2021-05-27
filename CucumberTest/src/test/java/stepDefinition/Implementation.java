@@ -74,7 +74,7 @@ public void close_the_browser() throws Throwable {
 public void click_on_TextLink() throws Throwable {
     // Write code here that turns the phrase above into concrete actions
 	Thread.sleep(2000);
-	WebElement ele=driver.findElement(By.xpath("//a[contains(text(),'Quizzzes')]"));
+	WebElement ele=driver.findElement(By.xpath("//a[contains(text(),'Quizzes')]"));
 	ele.click();
 	Thread.sleep(500);
 }
