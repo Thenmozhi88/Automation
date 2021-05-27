@@ -60,7 +60,7 @@ public void close_the_browser() throws Throwable {
 	WebElement ele1=driver.findElement(By.xpath("//a[contains(text(),'Sports')]"));
 	ele1.click();
 	System.out.println("Element identified");
-	if(driver.getPageSource().contains("Sports Related Top Played Quiz"))
+	if(driver.getPageSource().contains("Sports  Related Top Played Quiz"))
 	{
 		System.out.println("Successfully clicked element");
 	}else
