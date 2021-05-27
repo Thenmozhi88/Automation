@@ -2,19 +2,19 @@
 <testng-results skipped="0" failed="1" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11331" started-at="2021-05-25T10:00:13Z" finished-at="2021-05-25T10:00:25Z">
+  <suite name="Default suite" duration-ms="7912" started-at="2021-05-27T07:34:38Z" finished-at="2021-05-27T07:34:46Z">
     <groups>
       <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@60704c]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@6b19b79]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test name="Default test" duration-ms="11331" started-at="2021-05-25T10:00:13Z" finished-at="2021-05-25T10:00:25Z">
+    <test name="Default test" duration-ms="7912" started-at="2021-05-27T07:34:38Z" finished-at="2021-05-27T07:34:46Z">
       <class name="runner.TestRunner">
-        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@60704c]" name="setUpClass" is-config="true" duration-ms="492" started-at="2021-05-25T15:30:13Z" finished-at="2021-05-25T15:30:14Z">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runner.TestRunner@6b19b79]" name="setUpClass" is-config="true" duration-ms="484" started-at="2021-05-27T13:04:38Z" finished-at="2021-05-27T13:04:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@60704c]" name="feature" duration-ms="10578" started-at="2021-05-25T15:30:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-05-25T15:30:24Z">
+        <test-method status="FAIL" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:runner.TestRunner@6b19b79]" name="feature" duration-ms="7171" started-at="2021-05-27T13:04:39Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2021-05-27T13:04:46Z">
           <params>
             <param index="0">
               <value>
@@ -24,26 +24,22 @@
           </params>
           <exception class="cucumber.runtime.CucumberException">
             <message>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Test Automation']"}
+              <![CDATA[org.openqa.selenium.InvalidArgumentException: invalid argument
   (Session info: chrome=90.0.4430.212)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-QPSCT2K', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+System info: host: 'DESKTOP-QPSCT2K', ip: '10.20.32.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\THENMO~1\AppData\Local\Temp\scoped_dir13376_1961727572}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56954}, acceptInsecureCerts=false, browserVersion=90.0.4430.212, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: d587e0e14729455e86cf5c01d0bac428
-*** Element info: {Using=xpath, value=//span[text()='Test Automation']}]]>
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\THENMO~1\AppData\Local\Temp\scoped_dir1220_787139610}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59562}, acceptInsecureCerts=false, browserVersion=90.0.4430.212, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: cfce9fb5d9d78bd69c399d158e0674ea]]>
             </message>
             <full-stacktrace>
-              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Test Automation']"}
+              <![CDATA[cucumber.runtime.CucumberException: org.openqa.selenium.InvalidArgumentException: invalid argument
   (Session info: chrome=90.0.4430.212)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-QPSCT2K', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+System info: host: 'DESKTOP-QPSCT2K', ip: '10.20.32.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\THENMO~1\AppData\Local\Temp\scoped_dir13376_1961727572}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56954}, acceptInsecureCerts=false, browserVersion=90.0.4430.212, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: d587e0e14729455e86cf5c01d0bac428
-*** Element info: {Using=xpath, value=//span[text()='Test Automation']}
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\THENMO~1\AppData\Local\Temp\scoped_dir1220_787139610}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59562}, acceptInsecureCerts=false, browserVersion=90.0.4430.212, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: cfce9fb5d9d78bd69c399d158e0674ea
 	at cucumber.api.testng.TestNGCucumberRunner.runCucumber(TestNGCucumberRunner.java:69)
 	at cucumber.api.testng.AbstractTestNGCucumberTests.feature(AbstractTestNGCucumberTests.java:21)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
@@ -70,15 +66,13 @@ Session ID: d587e0e14729455e86cf5c01d0bac428
 	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[text()='Test Automation']"}
+Caused by: org.openqa.selenium.InvalidArgumentException: invalid argument
   (Session info: chrome=90.0.4430.212)
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.6.0', revision: '6fbf3ec767', time: '2017-09-27T15:28:36.4Z'
-System info: host: 'DESKTOP-QPSCT2K', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+System info: host: 'DESKTOP-QPSCT2K', ip: '10.20.32.166', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\THENMO~1\AppData\Local\Temp\scoped_dir13376_1961727572}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:56954}, acceptInsecureCerts=false, browserVersion=90.0.4430.212, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
-Session ID: d587e0e14729455e86cf5c01d0bac428
-*** Element info: {Using=xpath, value=//span[text()='Test Automation']}
+Capabilities [{networkConnectionEnabled=false, chrome={chromedriverVersion=89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}), userDataDir=C:\Users\THENMO~1\AppData\Local\Temp\scoped_dir1220_787139610}, timeouts={implicit=0, pageLoad=300000, script=30000}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, platform=WINDOWS, proxy=Proxy(), goog:chromeOptions={debuggerAddress=localhost:59562}, acceptInsecureCerts=false, browserVersion=90.0.4430.212, browserName=chrome, javascriptEnabled=true, platformName=WINDOWS, setWindowRect=true, webauthn:extension:largeBlob=true, webauthn:virtualAuthenticators=true}]
+Session ID: cfce9fb5d9d78bd69c399d158e0674ea
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -89,19 +83,16 @@ Session ID: d587e0e14729455e86cf5c01d0bac428
 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
 	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:586)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:356)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:458)
-	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:348)
-	at stepDefinition.Implementation.click_on_TextLink(Implementation.java:67)
-	at ✽.When click on TextLink(sample.feature:10)
+	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:310)
+	at stepDefinition.Implementation.go_to_url(Implementation.java:33)
+	at ✽.When go to url(sample.feature:4)
 ]]>
             </full-stacktrace>
           </exception> <!-- cucumber.runtime.CucumberException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@60704c]" name="tearDownClass" is-config="true" duration-ms="131" started-at="2021-05-25T15:30:24Z" finished-at="2021-05-25T15:30:25Z">
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runner.TestRunner@6b19b79]" name="tearDownClass" is-config="true" duration-ms="121" started-at="2021-05-27T13:04:46Z" finished-at="2021-05-27T13:04:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

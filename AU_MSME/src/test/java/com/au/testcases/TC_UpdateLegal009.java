@@ -43,7 +43,7 @@ public class TC_UpdateLegal009 extends BaseClass {
 			String Action = getTableData(legalStartPath, i, legalEndPath1);
 			System.out.println(Action);
 
-			switch (Action) {
+		/*	switch (Action) {
 			//
 			case "Allocate":
 				logger.info("Entered into Allocate");
