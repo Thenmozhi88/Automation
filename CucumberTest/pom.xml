@@ -42,8 +42,7 @@
 				<projectName>CucumberTest</projectName>
 				<!-- <outputDirectory>${project.build.directory}/gou-cucumber-reports</outputDirectory>  -->
 				<!-- <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>  -->
-				<outputDirectory>${project.build.directory}/cucumber</outputDirectory>
-				<inputDirectory>${project.build.directory}/cucumber</inputDirectory>
+				
 				<jsonFiles>
 				<param>**/*.json</param>
 				</jsonFiles>
